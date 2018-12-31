@@ -5,13 +5,14 @@
 <script>
 export default {
   name: 'BookItem',
-  data() {
-    return {
-      props: 'book',
-    };
-  },
+  props: ['book'],
 };
 </script>
 
 <style>
+
+li {
+  display: block;
+  margin: 0 10px;
+}
 </style>
