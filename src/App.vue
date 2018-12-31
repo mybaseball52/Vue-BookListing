@@ -7,11 +7,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import BookList from './components/BookList';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    BookList,
   },
 };
 </script>
